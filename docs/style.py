@@ -7,7 +7,7 @@ import another_import
 def some_function():
         print("hello world")
         a = input("some input: ")
-
+        
 # the case convention for functions is fully snake_case
 def this_is_the_case_convention():
         return
@@ -18,7 +18,7 @@ this_is_a_variable = 40 # variable names also follow the snake_case convention
 class ThisIsAClass:
         def __init__(s):
                 return
-
+        
 # DO NOT exceed 79 characters on a single line. if your code breaks this rule,
 # you are almost certainly doing something wrong
 here_is_a_very_very_very_very_very_very_very_very_very_long_line_of_code = 123
@@ -32,7 +32,7 @@ def another_function(a, b):
         return a + b
 
 # </example>
-# notice how the comments explaining the functions were totally worthless? if
+# notice how the comments explaining the function were totally worthless? if
 # your comments look like those, DO NOT BOTHER ADDING THEM. they only cause
 # unnecessary clutter. besides, your code should (ideally) be self-explanatory
 # and not even require comments in the first place
