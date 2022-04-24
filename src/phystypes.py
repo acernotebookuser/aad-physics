@@ -18,7 +18,7 @@ class Vector2:
                         return Vector2(self.x * other.x, self.y * other.y)
 
         def __truediv__(self, other):
-                return Vector2(self.x * other, self.y * other)
+                return Vector2(self.x / other, self.y / other)
 
         def __abs__(self):
                 return Vector2(abs(self.x), abs(self.y))
